@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Greeting App</title>
+</head>
+<body>
+
+<h2>Enter your name</h2>
+
+<form action="greeting.php" method="POST">
+    <input type="text" name="username" placeholder="Enter your name" required>
+    <br><br>
+    <button type="submit">Get Greeting</button>
+</form>
+
+</body>
+</html>
